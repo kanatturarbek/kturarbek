@@ -10,3 +10,27 @@ git commit -m "Changes for a and b"
 
 git add githowto3.txt
 git commit -m "Unrelated change to c"
+[master 9ef64c0] Unrelated change to c
+ 1 file changed, 12 insertions(+)
+ create mode 100644 githowto3.txt
+
+ git commit
+ On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   githowto3.txt
+
+git add .
+git commit
+no changes added to commit (use "git add" and/or "git commit -a")
+ Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#   (use "git push" to publish your local commits)
+C:/Users/Админ/ПП2/.git/COMMIT_EDITMSG [unix] (17:33 01/02/2021)  
