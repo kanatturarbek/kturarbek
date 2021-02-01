@@ -1,0 +1,8 @@
+git config --global user.name "kanatturarbek"
+git config --global user.email "k_turarbek@kbtu.kz"
+
+
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
+
+git config --global core.quotepath off
