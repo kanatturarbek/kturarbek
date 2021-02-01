@@ -34,3 +34,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
 # Your branch is ahead of 'origin/master' by 2 commits.
 #   (use "git push" to publish your local commits)
 C:/Users/Админ/ПП2/.git/COMMIT_EDITMSG [unix] (17:33 01/02/2021)  
+
+
+git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   githowto3.txt
+
+        
