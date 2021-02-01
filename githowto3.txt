@@ -1,0 +1,12 @@
+git add hello.html
+git add githowto1.txt
+git commit -m "Changes for a and b"
+
+[master b0bc4b6] Changes for a and b
+ 2 files changed, 65 insertions(+)
+ create mode 100644 githowto1.txt
+ create mode 100644 hello.html
+
+
+git add githowto3.txt
+git commit -m "Unrelated change to c"
