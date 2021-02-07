@@ -102,3 +102,47 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
   -->
+
+  <!--git add .
+    git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   githowto3.txt
+        modified:   hello.html-->
+
+
+        <!--git commit -m "Added HTML header"
+[master 48442b7] Added HTML header
+ 2 files changed, 54 insertions(+), 1 deletion(-)-->
+
+
+ <!-- git log
+commit 48442b7ec0541a2844df3e5d062f1345cd803789 (HEAD -> master)
+Author: kanatturarbek <k_turarbek@kbtu.kz>
+Date:   Mon Feb 1 17:45:27 2021 +0600
+
+    Added HTML header
+
+commit 74ab628741a943ea8329d03a07f61bd4d1a27826
+Author: kanatturarbek <k_turarbek@kbtu.kz>-->
+
+<!--
+   git log --pretty=oneline
+48442b7ec0541a2844df3e5d062f1345cd803789 (HEAD -> master) Added HTML header
+74ab628741a943ea8329d03a07f61bd4d1a27826 Added standard HTML page tags
+9ef64c034b97f3b1b4963057ac92f5f4c5f48633 Unrelated change to c
+b0bc4b60331e7f1892c68993fe6b025fea71539e Changes for a and b
+e554e9d4285e0ab2027f630a1c08129beb0ef91e (origin/master) first commit  
+-->
+
+<!-- git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+* 48442b7 2021-02-01 | Added HTML header (HEAD -> master) [kanatturarbek]
+* 74ab628 2021-02-01 | Added standard HTML page tags [kanatturarbek]
+* 9ef64c0 2021-02-01 | Unrelated change to c [kanatturarbek]
+* b0bc4b6 2021-02-01 | Changes for a and b [kanatturarbek]
+* e554e9d 2021-02-01 | first commit (origin/master) [Kanat]
+PS C:\Users\Админ\ПП2>-->
